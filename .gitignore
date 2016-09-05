@@ -1,2 +1,5 @@
 bin/
 obj/
+publish/
+ExcelLoader_*
+ExcelLoader.csproj.user

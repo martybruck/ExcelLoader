@@ -141,10 +141,7 @@ namespace ExcelLoader
             {
                 CurrentStatus = "Generating Results";
                 MyExcelHelper.GenerateOutputSheets(ExcelFileName);
-                CurrentStatus = "Result Generation Completed - File Cleared";
-                ExcelFileName = null;
-                Rules = null;
-                MyExcelHelper = new ExcelHelper();
+                CurrentStatus = "Result Generation Completed";
             }
         }
         private void CloseWorkbook(object sender, EventArgs e)
